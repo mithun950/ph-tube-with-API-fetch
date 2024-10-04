@@ -70,7 +70,7 @@ const loadVideos = async() =>{
             videosContainer.classList.remove('grid')
             videosContainer.innerHTML = `
              <div class="min-h-[500px] flex flex-col gap-5 justify-center items-center">
-              <img src= "./assets/icon.png"/>
+              <img src= "./assets/Icon.png"/>
               <h class= "text-center text-2xl font-bold text-[red]">No Content Here Is This Category</h>
              </div>
             `; 
